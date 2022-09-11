@@ -28,6 +28,9 @@ ol {
 img {
   display: block;
 }
+address {
+  font-style: normal;
+}
 body {
   /* background-color: var(--primary-background-color); */
   color: var(--primary-text-color);
@@ -76,12 +79,28 @@ body {
   clip-path: inset(50%);
   margin: -1px;
 }
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  outline: 2px solid red;
+}
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 /* ------------------------------  header */
-.header,
-.hero,
 .services,
 .connection,
 .contacts {
+  background-color: grey;
+}
+.header {
+  padding-top: 32px;
+  padding-bottom: 32px;
   background-color: grey;
 }
 .header-link,
@@ -96,6 +115,9 @@ body {
   color: var(--primary-background-color);
 }
 /* -------------------------------  hero */
+.hero {
+  background-color: grey;
+}
 .hero-link {
   font-weight: 600;
   font-size: 11px;
@@ -103,8 +125,12 @@ body {
   letter-spacing: 0.2em;
   color: var(--title-text-color);
 }
+.hero-content {
+  padding: 272px 100px 208px 100px;
+}
 .hero-pre-title {
   color: rgba(157, 164, 189, 0.6);
+  margin-bottom: 20px;
 }
 .hero-title {
   font-family: 'Raleway', sans-serif;
@@ -112,13 +138,16 @@ body {
   line-height: 1.18;
   letter-spacing: 0.05em;
   color: var(--primary-background-color);
+  margin-bottom: 20px;
 }
 .hero-after-title {
   color: var(--secondary-text-color);
+  max-width: 370px;
 }
 /* -------------------------------  about */
 .about-pre-title {
   color: var(--title-text-color);
+  margin-bottom: 20px;
 }
 .about-title {
   font-family: 'Raleway', sans-serif;
@@ -126,10 +155,15 @@ body {
   line-height: 1.17;
   letter-spacing: 0.05em;
   color: var(--title-text-color);
+  margin-bottom: 20px;
+}
+.about-after-title {
+  margin-bottom: 20px;
 }
 .about-text {
   font-size: 14px;
   line-height: 1.86;
+  margin-bottom: 42px;
 }
 .about-button {
   color: var(--title-text-color);
@@ -137,17 +171,47 @@ body {
 /* -------------------------------  services */
 .services-pre-title {
   color: rgba(157, 164, 189, 0.6);
+  margin-bottom: 20px;
 }
 .services-title {
   color: var(--primary-background-color);
+  margin-bottom: 44px;
+}
+.services-list {
+  border: 2px solid greenyellow;
+  padding: 30px 20px;
 }
 .services-item-text {
   color: var(--secondary-text-color);
 }
 .services-button {
   color: var(--primary-background-color);
+  display: block;
+  margin: 44px auto 0;
 }
 /* -------------------------------  feature */
+.feature-item {
+  border: 2px solid greenyellow;
+  width: 170px;
+  height: 133px;
+  padding: 20px 24px;
+  text-align: center;
+  background: var(--primary-background-color);
+}
+.feature-item > span {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.36;
+  letter-spacing: 0.05em;
+  color: var(--title-text-color);
+}
+.feature-item-text {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  margin-top: 6px;
+  color: var(--title-text-color);
+}
 .feature-pre-title {
   color: var(--title-text-color);
 }
@@ -155,19 +219,28 @@ body {
   color: var(--title-text-color);
 }
 /* -------------------------------  employees */
+.employees {
+  background: var(--secondary-background-color);
+}
 .employees-pre-title {
   color: var(--title-text-color);
+  margin-bottom: 20px;
 }
 .employees-title {
   color: var(--title-text-color);
+  margin-bottom: 44px;
 }
-.employees-name {
+.employees-item > img {
+  margin-bottom: 30px;
+}
+.employees-item-title {
   font-weight: 400;
   font-size: 18px;
   line-height: 1.39;
+  margin-bottom: 8px;
   color: var(--title-text-color);
 }
-.employees-text {
+.employees-item-text {
   font-size: 14px;
   line-height: 1.36;
   color: var(--accent-color);
@@ -186,16 +259,15 @@ body {
 }
 .contacts-address {
   color: var(--secondary-text-color);
-  font-style: normal;
+
   font-weight: 700;
 }
 .contacts-tel {
   color: var(--secondary-text-color);
-  font-style: normal;
 }
 .contacts-mail {
   color: var(--secondary-text-color);
-  font-style: normal;
+
   text-decoration-line: underline;
 }
 .contacts-pre-title {
@@ -203,4 +275,17 @@ body {
 }
 .contacts-after-title {
   color: var(--secondary-text-color);
+}
+/* -------------------------------  contacts */
+.footer-pre-title {
+  text-transform: none;
+  letter-spacing: 0.2em;
+  color: var(--secondary-text-color);
+}
+.footer-link {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.2em;
+  color: var(--title-text-color);
 }
