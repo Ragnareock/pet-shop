@@ -79,7 +79,9 @@ body {
 /* ------------------------------  header */
 .header,
 .hero,
-.services {
+.services,
+.connection,
+.contacts {
   background-color: grey;
 }
 .header-link,
@@ -169,4 +171,36 @@ body {
   font-size: 14px;
   line-height: 1.36;
   color: var(--accent-color);
+}
+/* -------------------------------  gallery */
+.gallery-pre-title {
+  color: var(--title-text-color);
+}
+/* -------------------------------  connection */
+.connection-title {
+  color: var(--primary-background-color);
+}
+/* -------------------------------  contacts */
+.contacts-title {
+  color: var(--primary-background-color);
+}
+.contacts-address {
+  color: var(--secondary-text-color);
+  font-style: normal;
+  font-weight: 700;
+}
+.contacts-tel {
+  color: var(--secondary-text-color);
+  font-style: normal;
+}
+.contacts-mail {
+  color: var(--secondary-text-color);
+  font-style: normal;
+  text-decoration-line: underline;
+}
+.contacts-pre-title {
+  color: var(--primary-background-color);
+}
+.contacts-after-title {
+  color: var(--secondary-text-color);
 }
