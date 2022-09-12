@@ -103,6 +103,16 @@ body {
   padding-bottom: 32px;
   background-color: grey;
 }
+.header-container {
+  display: flex;
+  align-items: center;
+}
+.header-list {
+  display: flex;
+}
+.header-connect {
+  margin-left: auto;
+}
 .header-link,
 .header-tel {
   font-weight: 600;
@@ -247,36 +257,52 @@ body {
 }
 /* -------------------------------  gallery */
 .gallery-pre-title {
+  margin-bottom: 44px;
   color: var(--title-text-color);
 }
 /* -------------------------------  connection */
+.connection {
+  padding-top: 130px;
+  padding-bottom: 183px;
+}
 .connection-title {
+  color: var(--primary-background-color);
+  margin-bottom: 44px;
+}
+.connection-button {
   color: var(--primary-background-color);
 }
 /* -------------------------------  contacts */
+.contacts {
+  padding-top: 130px;
+}
 .contacts-title {
+  margin-bottom: 40px;
   color: var(--primary-background-color);
 }
 .contacts-address {
-  color: var(--secondary-text-color);
-
   font-weight: 700;
+  color: var(--secondary-text-color);
 }
 .contacts-tel {
   color: var(--secondary-text-color);
 }
 .contacts-mail {
-  color: var(--secondary-text-color);
-
   text-decoration-line: underline;
+  color: var(--secondary-text-color);
 }
 .contacts-pre-title {
+  margin-bottom: 20px;
   color: var(--primary-background-color);
 }
 .contacts-after-title {
   color: var(--secondary-text-color);
 }
-/* -------------------------------  contacts */
+/* -------------------------------  footer */
+.footer {
+  padding-top: 56px;
+  padding-bottom: 56px;
+}
 .footer-pre-title {
   text-transform: none;
   letter-spacing: 0.2em;
