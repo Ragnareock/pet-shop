@@ -196,28 +196,28 @@
               <ul class="employees-soc-list list">
                 <li class="employees-soc-item">
                   <a href="https://www.instagram.com/" class="employees-soc-link link">
-                    <svg class="employees-soc-icon" width="20" hight="20">
+                    <svg class="employees-soc-icon" width="20" height="20">
                       <use href="./images/icons.svg#icon-instagram"></use>
                     </svg>
                   </a>
                 </li>
                 <li class="employees-soc-item">
                   <a href="https://twitter.com/" class="employees-soc-link link">
-                    <svg class="employees-soc-icon" width="20" hight="20">
+                    <svg class="employees-soc-icon" width="20" height="20">
                       <use href="./images/icons.svg#icon-twitter"></use>
                     </svg>
                   </a>
                 </li>
                 <li class="employees-soc-item">
                   <a href="https://www.facebook.com/" class="employees-soc-link link">
-                    <svg class="employees-soc-icon" width="20" hight="20">
+                    <svg class="employees-soc-icon" width="20" height="20">
                       <use href="./images/icons.svg#icon-facebook"></use>
                     </svg>
                   </a>
                 </li>
                 <li class="employees-soc-item">
                   <a href="https://www.linkedin.com/" class="employees-soc-link link">
-                    <svg class="employees-soc-icon" width="20" hight="20">
+                    <svg class="employees-soc-icon" width="20" height="20">
                       <use href="./images/icons.svg#icon-linkedin"></use>
                     </svg>
                   </a>
@@ -237,28 +237,28 @@
               <ul class="employees-soc-list list">
                 <li class="employees-soc-item">
                   <a href="https://www.instagram.com/" class="employees-soc-link link">
-                    <svg class="employees-soc-icon" width="20" hight="20">
+                    <svg class="employees-soc-icon" width="20" height="20">
                       <use href="./images/icons.svg#icon-instagram"></use>
                     </svg>
                   </a>
                 </li>
                 <li class="employees-soc-item">
                   <a href="https://twitter.com/" class="employees-soc-link link">
-                    <svg class="employees-soc-icon" width="20" hight="20">
+                    <svg class="employees-soc-icon" width="20" height="20">
                       <use href="./images/icons.svg#icon-twitter"></use>
                     </svg>
                   </a>
                 </li>
                 <li class="employees-soc-item">
                   <a href="https://www.facebook.com/" class="employees-soc-link link">
-                    <svg class="employees-soc-icon" width="20" hight="20">
+                    <svg class="employees-soc-icon" width="20" height="20">
                       <use href="./images/icons.svg#icon-facebook"></use>
                     </svg>
                   </a>
                 </li>
                 <li class="employees-soc-item">
                   <a href="https://www.linkedin.com/" class="employees-soc-link link">
-                    <svg class="employees-soc-icon" width="20" hight="20">
+                    <svg class="employees-soc-icon" width="20" height="20">
                       <use href="./images/icons.svg#icon-linkedin"></use>
                     </svg>
                   </a>
@@ -278,28 +278,28 @@
               <ul class="employees-soc-list list">
                 <li class="employees-soc-item">
                   <a href="https://www.instagram.com/" class="employees-soc-link link">
-                    <svg class="employees-soc-icon" width="20" hight="20">
+                    <svg class="employees-soc-icon" width="20" height="20">
                       <use href="./images/icons.svg#icon-instagram"></use>
                     </svg>
                   </a>
                 </li>
                 <li class="employees-soc-item">
                   <a href="https://twitter.com/" class="employees-soc-link link">
-                    <svg class="employees-soc-icon" width="20" hight="20">
+                    <svg class="employees-soc-icon" width="20" height="20">
                       <use href="./images/icons.svg#icon-twitter"></use>
                     </svg>
                   </a>
                 </li>
                 <li class="employees-soc-item">
                   <a href="https://www.facebook.com/" class="employees-soc-link link">
-                    <svg class="employees-soc-icon" width="20" hight="20">
+                    <svg class="employees-soc-icon" width="20" height="20">
                       <use href="./images/icons.svg#icon-facebook"></use>
                     </svg>
                   </a>
                 </li>
                 <li class="employees-soc-item">
                   <a href="https://www.linkedin.com/" class="employees-soc-link link">
-                    <svg class="employees-soc-icon" width="20" hight="20">
+                    <svg class="employees-soc-icon" width="20" height="20">
                       <use href="./images/icons.svg#icon-linkedin"></use>
                     </svg>
                   </a>
@@ -427,9 +427,50 @@
         </button>
         <p class="modal-title">Leave your data, we will call you back</p>
         <form class="modal-form">
-          <input type="text" class="modal-input" />
-          <input type="text" class="modal-input" />
-          <input type="text" class="modal-input" />
+          <div class="modal-field">
+            <label for="user-tel" class="modal-label">Your name</label>
+            <span class="input-wrap">
+              <input
+                type="text"
+                class="modal-input"
+                name="user-name"
+                required
+                minlength="2"
+                maxlength="20"
+              />
+              <svg class="input-icon" width="20" height="20">
+                <use href="./images/icons.svg#icon-person"></use>
+              </svg>
+            </span>
+          </div>
+          <div class="modal-field">
+            <label for="user-tel" class="modal-label">Your phone number</label>
+            <span class="input-wrap">
+              <input type="tel" class="modal-input" name="user-tel" required />
+              <svg class="input-icon" width="20" height="20">
+                <use href="./images/icons.svg#icon-phone"></use>
+              </svg>
+            </span>
+          </div>
+          <div class="modal-field">
+            <label for="user-tel" class="modal-label">Your email address</label>
+            <span class="input-wrap">
+              <input type="email" class="modal-input" name="user-email" required />
+              <svg class="input-icon" width="20" height="20">
+                <use href="./images/icons.svg#icon-email"></use>
+              </svg>
+            </span>
+          </div>
+          <div class="modal-field">
+            <label for="user-text" class="modal-label">Your message</label>
+            <textarea name="user-text" id="user-text" placeholder="Text" class="online-comment">
+Hello, </textarea
+            >
+          </div>
+          <div class="modal-field">
+            <input type="checkbox" class="modal-check" name="privacy" required />
+            <label for="privacy" class="check-text">Your message</label>
+          </div>
           <button class="modal-button button" type="submit">Send</button>
         </form>
       </div>
