@@ -1,0 +1,48 @@
+.connection {
+  padding-top: 130px;
+  padding-bottom: 120px;
+}
+.connection-title {
+  color: var(--primary-background-color);
+  margin-bottom: 44px;
+}
+.connection-button {
+  color: var(--primary-background-color);
+}
+.connection {
+  background-image: linear-gradient(rgba(25, 28, 38, 0.757), rgba(25, 28, 38, 0.808)),
+    url(../images/connection-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+}
+.connection-content {
+  width: calc((100% - 30px) / 2);
+}
+.connection-container {
+  display: flex;
+  gap: 30px;
+}
+.contacts-title {
+  margin-bottom: 40px;
+  color: var(--primary-background-color);
+}
+.contacts-address {
+  font-weight: 700;
+  color: var(--secondary-text-color);
+}
+.contacts-tel {
+  color: var(--secondary-text-color);
+}
+.contacts-mail {
+  text-decoration-line: underline;
+  color: var(--secondary-text-color);
+}
+.contacts-pre-title {
+  margin-top: 70px;
+  margin-bottom: 20px;
+  color: var(--primary-background-color);
+}
+.contacts-after-title {
+  color: var(--secondary-text-color);
+}
