@@ -16,19 +16,19 @@
   padding: 20px 24px;
   text-align: center;
   background: var(--secondary-background-color);
+  > span {
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 1.36;
+    letter-spacing: 0.05em;
+    color: var(--title-text-color);
+  }
 }
 .feature-item:nth-child(odd) {
   margin-right: 30px;
 }
 .feature-item:nth-child(even) {
   margin-top: 30px;
-}
-.feature-item > span {
-  font-weight: 700;
-  font-size: 42px;
-  line-height: 1.36;
-  letter-spacing: 0.05em;
-  color: var(--title-text-color);
 }
 .feature-item-text {
   font-weight: 600;

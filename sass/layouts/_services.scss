@@ -28,22 +28,22 @@
   justify-content: space-between;
   align-items: baseline;
   gap: 12px;
-}
-.services-item::after {
-  content: '';
-  width: 100px;
-  height: 1px;
-  background: rgba(157, 164, 189, 0.12);
-  flex-grow: 1;
-}
-.services-item-text:last-child {
-  order: 1;
-}
-.services-item + .services-item {
-  margin-top: 20px;
+  &::after {
+    content: '';
+    width: 100px;
+    height: 1px;
+    background: rgba(157, 164, 189, 0.12);
+    flex-grow: 1;
+  }
+  & + & {
+    margin-top: 20px;
+  }
 }
 .services-item-text {
   color: var(--secondary-text-color);
+  &:last-child {
+    order: 1;
+  }
 }
 .services-button {
   color: var(--primary-background-color);

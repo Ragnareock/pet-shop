@@ -11,12 +11,12 @@
   transform-origin: bottom left;
   align-items: center;
   gap: 40px;
-}
-.hero-list::before {
-  content: '';
-  width: 60px;
-  height: 1px;
-  background-color: var(--title-text-color);
+  &::before {
+    content: '';
+    width: 60px;
+    height: 1px;
+    background-color: var(--title-text-color);
+  }
 }
 .hero-container {
   display: flex;
@@ -28,10 +28,10 @@
   letter-spacing: 0.2em;
   color: var(--title-text-color);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.hero-link:hover,
-.hero-link:focus {
-  color: var(--accent-color);
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
 }
 .hero-content {
   padding: 272px 100px 208px 100px;

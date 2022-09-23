@@ -30,14 +30,10 @@
   letter-spacing: 0.1em;
   color: var(--primary-background-color);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.header-link:hover,
-.header-link:focus {
-  color: var(--accent-color);
-}
-.header-tel:hover,
-.header-tel:focus {
-  color: var(--accent-color);
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
 }
 .header-button {
   color: var(--primary-background-color);
