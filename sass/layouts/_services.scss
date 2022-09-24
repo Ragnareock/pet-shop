@@ -10,7 +10,7 @@
   margin-bottom: 20px;
 }
 .services-title {
-  color: var(--primary-background-color);
+  color: $primaryBackgroundColor;
   margin-bottom: 44px;
 }
 .services-wrap {
@@ -40,13 +40,13 @@
   }
 }
 .services-item-text {
-  color: var(--secondary-text-color);
+  color: $secondaryTextColor;
   &:last-child {
     order: 1;
   }
 }
 .services-button {
-  color: var(--primary-background-color);
+  color: $primaryBackgroundColor;
   display: block;
   margin: 44px auto 0;
 }

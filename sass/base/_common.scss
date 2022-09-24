@@ -1,10 +1,10 @@
 body {
-  /* background-color: var(--primary-background-color); */
-  color: var(--primary-text-color);
-  font-family: 'Open Sans', sans-serif;
+  /* background-color: $primaryBackgroundColor; */
+  color: $primaryTextColor;
+  font-family: $primaryFont;
   font-size: 18px;
   line-height: calc(30 / 18);
-  letter-spacing: 0.02em;
+  letter-spacing: $mediumLetterSpacing;
 }
 .link {
   text-decoration: none;

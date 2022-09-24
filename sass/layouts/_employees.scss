@@ -1,12 +1,12 @@
 .employees {
-  background: var(--secondary-background-color);
+  background: $secondaryBackgroundColor;
 }
 .employees-pre-title {
-  color: var(--title-text-color);
+  color: $titleTextColor;
   margin-bottom: 20px;
 }
 .employees-title {
-  color: var(--title-text-color);
+  color: $titleTextColor;
   margin-bottom: 44px;
 }
 .employees-list {
@@ -26,7 +26,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  color: var(--primary-background-color);
+  color: $primaryBackgroundColor;
   background-color: #ff6a0028;
   padding: 40px;
   height: 100%;
@@ -37,26 +37,26 @@
   }
 }
 .employees-item-title {
-  font-weight: 400;
+  font-weight: $regularWeight;
   font-size: 18px;
   line-height: 1.39;
   margin-top: 30px;
   margin-bottom: 8px;
   text-align: center;
-  color: var(--title-text-color);
+  color: $titleTextColor;
 }
 .employees-item-text {
   font-size: 14px;
   line-height: 1.36;
   text-align: center;
-  color: var(--accent-color);
+  color: $accentColor;
   margin-bottom: 30px;
 }
 .employees-soc-link {
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  background-color: var(--primary-background-color);
+  background-color: $primaryBackgroundColor;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -67,10 +67,10 @@
   gap: 10px;
 }
 .employees-soc-icon {
-  fill: var(--title-text-color);
+  fill: $titleTextColor;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   &:hover,
   &:focus {
-    fill: var(--accent-color);
+    fill: $accentColor;
   }
 }

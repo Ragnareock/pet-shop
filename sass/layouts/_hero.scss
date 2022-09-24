@@ -15,22 +15,22 @@
     content: '';
     width: 60px;
     height: 1px;
-    background-color: var(--title-text-color);
+    background-color: $titleTextColor;
   }
 }
 .hero-container {
   display: flex;
 }
 .hero-link {
-  font-weight: 600;
+  font-weight: $semiBoldWeight;
   font-size: 11px;
   line-height: 1.36;
   letter-spacing: 0.2em;
-  color: var(--title-text-color);
+  color: $titleTextColor;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   &:hover,
   &:focus {
-    color: var(--accent-color);
+    color: $accentColor;
   }
 }
 .hero-content {
@@ -50,16 +50,16 @@
   margin-bottom: 20px;
 }
 .hero-title {
-  font-family: 'Raleway', sans-serif;
+  font-family: $secondaryFont;
   font-size: 72px;
   line-height: 1.18;
-  letter-spacing: 0.05em;
-  color: var(--primary-background-color);
+  letter-spacing: $largeLetterSpacing;
+  color: $primaryBackgroundColor;
   margin-bottom: 20px;
   display: flex;
   align-items: baseline;
 }
 .hero-after-title {
-  color: var(--secondary-text-color);
+  color: $secondaryTextColor;
   max-width: 370px;
 }

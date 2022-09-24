@@ -7,15 +7,15 @@
   margin-right: 30px;
 }
 .about-pre-title {
-  color: var(--title-text-color);
+  color: $titleTextColor;
   margin-bottom: 20px;
 }
 .about-title {
-  font-family: 'Raleway', sans-serif;
+  font-family: $secondaryFont;
   font-size: 42px;
   line-height: 1.17;
-  letter-spacing: 0.05em;
-  color: var(--title-text-color);
+  letter-spacing: $largeLetterSpacing;
+  color: $titleTextColor;
   margin-bottom: 20px;
 }
 .about-after-title {
@@ -30,5 +30,5 @@
   margin-bottom: 42px;
 }
 .about-button {
-  color: var(--title-text-color);
+  color: $titleTextColor;
 }

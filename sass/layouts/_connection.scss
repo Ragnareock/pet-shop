@@ -3,11 +3,11 @@
   padding-bottom: 120px;
 }
 .connection-title {
-  color: var(--primary-background-color);
+  color: $primaryBackgroundColor;
   margin-bottom: 44px;
 }
 .connection-button {
-  color: var(--primary-background-color);
+  color: $primaryBackgroundColor;
 }
 .connection {
   background-image: linear-gradient(rgba(25, 28, 38, 0.757), rgba(25, 28, 38, 0.808)),
@@ -25,24 +25,24 @@
 }
 .contacts-title {
   margin-bottom: 40px;
-  color: var(--primary-background-color);
+  color: $primaryBackgroundColor;
 }
 .contacts-address {
-  font-weight: 700;
-  color: var(--secondary-text-color);
+  font-weight: $boldWeight;
+  color: $secondaryTextColor;
 }
 .contacts-tel {
-  color: var(--secondary-text-color);
+  color: $secondaryTextColor;
 }
 .contacts-mail {
   text-decoration-line: underline;
-  color: var(--secondary-text-color);
+  color: $secondaryTextColor;
 }
 .contacts-pre-title {
   margin-top: 70px;
   margin-bottom: 20px;
-  color: var(--primary-background-color);
+  color: $primaryBackgroundColor;
 }
 .contacts-after-title {
-  color: var(--secondary-text-color);
+  color: $secondaryTextColor;
 }

@@ -1,8 +1,15 @@
-:root {
-  --primary-background-color: #ffffff;
-  --secondary-background-color: #f7f7f7;
-  --primary-text-color: #555555;
-  --secondary-text-color: #9da4bd;
-  --title-text-color: #303030;
-  --accent-color: #ff6c00;
-}
+$primaryFont: 'Open Sans', sans-serif;
+$secondaryFont: 'Raleway', sans-serif;
+$regularWeight: 400;
+$semiBoldWeight: 600;
+$boldWeight: 700;
+$smallLetterSpacing: 0.01em;
+$mediumLetterSpacing: 0.02em;
+$largeLetterSpacing: 0.05em;
+
+$primaryBackgroundColor: #ffffff;
+$secondaryBackgroundColor: #f7f7f7;
+$primaryTextColor: #555555;
+$secondaryTextColor: #9da4bd;
+$titleTextColor: #303030;
+$accentColor: #ff6c00;
