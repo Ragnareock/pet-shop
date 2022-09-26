@@ -6,15 +6,25 @@
   padding-top: 56px;
   padding-bottom: 56px;
 }
-.footer-pre-title {
-  text-transform: none;
+.footer-text {
+  font-weight: $semiBoldWeight;
+  font-size: 11px;
+  line-height: 1.36;
   letter-spacing: 0.2em;
+  text-transform: none;
   color: $secondaryTextColor;
 }
 .footer-list {
   display: flex;
   margin-left: auto;
+  align-items: center;
   gap: 40px;
+  &::before {
+    content: '';
+    width: 60px;
+    height: 1px;
+    background-color: $titleTextColor;
+  }
 }
 .footer-link {
   font-weight: $semiBoldWeight;

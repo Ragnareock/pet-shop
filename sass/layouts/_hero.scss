@@ -1,11 +1,11 @@
-.hero-soc {
+.social {
   width: 100px;
   display: flex;
   align-items: flex-end;
   padding-left: 27px;
   padding-bottom: 40px;
 }
-.hero-list {
+.social__list {
   display: flex;
   transform: rotate(-90deg) translateY(100%);
   transform-origin: bottom left;
@@ -18,10 +18,10 @@
     background-color: $titleTextColor;
   }
 }
-.hero-container {
+.hero__container {
   display: flex;
 }
-.hero-link {
+.social__link {
   font-weight: $semiBoldWeight;
   font-size: 11px;
   line-height: 1.36;
@@ -33,7 +33,7 @@
     color: $accentColor;
   }
 }
-.hero-content {
+.hero__content {
   padding: 272px 100px 208px 100px;
   background-color: grey;
   flex-grow: 1;
@@ -45,11 +45,10 @@
   padding: 272px 100px 208px 100px;
   flex-grow: 1;
 }
-.hero-pre-title {
-  color: rgba(157, 164, 189, 0.6);
+.hero__pre-title {
   margin-bottom: 20px;
 }
-.hero-title {
+.hero__title {
   font-family: $secondaryFont;
   font-size: 72px;
   line-height: 1.18;
@@ -59,7 +58,7 @@
   display: flex;
   align-items: baseline;
 }
-.hero-after-title {
+.hero__after-title {
   color: $secondaryTextColor;
   max-width: 370px;
 }
