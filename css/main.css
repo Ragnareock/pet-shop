@@ -409,7 +409,7 @@ body {
   padding: 272px 100px 208px 100px;
   background-color: grey;
   flex-grow: 1;
-  background-image: linear-gradient(rgba(25, 28, 38, 0.2), rgba(25, 28, 38, 0.2)), url(../images/hero-bg.jpg);
+  background-image: linear-gradient(rgba(25, 28, 38, 0.2), rgba(25, 28, 38, 0.2)), url(../images/hero-bg1.jpg);
   background-repeat: no-repeat;
   background-position: center;
   block-size: cover;
@@ -479,7 +479,7 @@ body {
 }
 
 .services {
-  background-image: linear-gradient(rgba(25, 28, 38, 0.2), rgba(25, 28, 38, 0.2)), url(../images/services-bg.jpg);
+  background-image: linear-gradient(rgba(25, 28, 38, 0.2), rgba(25, 28, 38, 0.2)), url(../images/services-bg1.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100% 100%;
